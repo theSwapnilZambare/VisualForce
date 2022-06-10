@@ -1,0 +1,71 @@
+<apex:page sidebar="false" showHeader="false" standardStylesheets="false">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/>
+    
+    <style>
+        * {
+        	font-family: 'Open Sans', sans-serif;
+        }
+    	.container1 {
+        	padding-left: 6%;
+    		padding-right: 25%;        	
+        }
+        .container2 {
+        	margin-top: 10%;
+        	padding-left: 6%;
+    		padding-right: 6%;  
+        }
+        .heading1 {
+            font-size: 38px;
+    		font-weight: bold;
+        }
+        .heading2 {
+        	color: #eb4034;
+        }
+        #top-para {
+        	font-size: 21px;
+        	line-height: 35px;
+        }
+        #tagline {
+        	font-weight: bold;
+        	color: #1c96b8;
+        }
+    </style>
+    
+    <div>
+        <img src="/assets/images/logo.png" height="70"/>
+    </div>
+    
+    <div class="container1">        
+        <h1 class="heading1"> Lorem Ipsum Paragraphs</h1>
+        
+        <p id="top-para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </p>
+    </div>
+    
+    <div class="container2" align="center">        
+        <h2 class="heading2"> Paragraphs give control back to content editors </h2>
+        
+        <p id="bottom-para">
+            The <a href="https://www.google.co.in" target="_blank">Lorem Ipsum</a> 
+             is simply dummy text of the printing and typesetting industry.
+	    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </p>
+        
+        <p>
+            <span id="tagline">It was popularised in the 1960s with the release of Letraset sheets</span>  containing Lorem Ipsum passages, 
+		and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            ready to go.
+        </p>
+    </div>
+        
+    
+</apex:page>
