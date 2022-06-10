@@ -7,6 +7,10 @@ Visualforce pages are basic building blocks for application developers. A Visual
 - <a href="https://trailhead.salesforce.com/content/learn/modules/visualforce_fundamentals" target="_blank">Visualforce Basics</a>
 
 
+- <a href="https://trailhead.salesforce.com/content/learn/modules/lex_dev_visualforce" target="_blank">Visualforce & Lightning Experience</a>
+
+
+
 
 ## Trailhead Modules:
 
